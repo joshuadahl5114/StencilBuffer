@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		2A2B2095795F40C7821ED3B2 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 5871522D86F74F499D89BE95 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				5D37915B9BB94AABA77DE141 /* CMake Rules */,
+			);
+			dependencies = (
+				511411509F374CB296A67606 /* PBXTargetDependency */,
+				5F7F9039D8264391AC82A3C8 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		F85A8DCA357B4674A4664216 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 12F3E9006D1742EC97655F35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				2D565C4F6E7542DA9D706875 /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		28ABE74277744F9FA5CA9F12 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A4BFC58BF0FD43BA84CB4817 /* main.cpp */; };
+		4620D3E23CB947E6802AD9DC /* sphere.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7FE4FA95EDA4682B9E13BB3 /* sphere.cpp */; };
+		5667E409D5824B0F823565E9 /* example.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C9BB924B7C84196A5929789 /* example.cpp */; };
+		C7B4F901663649CF956D94E0 /* targa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6A84A0F9E78949CE8ECDE1DF /* targa.cpp */; };
+		D4E549A4698045A2AC013E49 /* plane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 50AB4B970E0342DD9CBF976A /* plane.cpp */; };
+		E48E7BD6253955C50094B66D /* glew.c in Sources */ = {isa = PBXBuildFile; fileRef = E48E7BD5253955C50094B66D /* glew.c */; };
+		E48E7BDA253955D50094B66D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BD9253955D50094B66D /* OpenGL.framework */; };
+		E48E7BDC253955E50094B66D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BDB253955E50094B66D /* QuartzCore.framework */; };
+		E48E7BDE253955EE0094B66D /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BDD253955EE0094B66D /* IOKit.framework */; };
+		E48E7BE0253955F60094B66D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BDF253955F60094B66D /* Cocoa.framework */; };
+		E48E7BE2253956040094B66D /* libglfw3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E48E7BE1253956040094B66D /* libglfw3.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B958C48147347AEB3D6956B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5415C9C3F45E4BEEACAC8493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B274EDF1E06B4471A0AFDAFC;
+			remoteInfo = stencil_reflection;
+		};
+		C2E760995F9541E3AC674CA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5415C9C3F45E4BEEACAC8493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85A8DCA357B4674A4664216;
+			remoteInfo = ZERO_CHECK;
+		};
+		E8411D70887C498F95D8C47C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5415C9C3F45E4BEEACAC8493 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F85A8DCA357B4674A4664216;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D279BEB871C4EB893480ED2 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		1DF568B32F8D4B2DB89AA792 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		3C9BB924B7C84196A5929789 /* example.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = example.cpp; path = src/example.cpp; sourceTree = SOURCE_ROOT; };
+		50AB4B970E0342DD9CBF976A /* plane.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = plane.cpp; path = src/plane.cpp; sourceTree = SOURCE_ROOT; };
+		6A84A0F9E78949CE8ECDE1DF /* targa.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = targa.cpp; path = src/targa.cpp; sourceTree = SOURCE_ROOT; };
+		A4BFC58BF0FD43BA84CB4817 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		E48E7BD5253955C50094B66D /* glew.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = glew.c; path = source/common/thirdparty/glew/src/glew.c; sourceTree = "<group>"; };
+		E48E7BD9253955D50094B66D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		E48E7BDB253955E50094B66D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E48E7BDD253955EE0094B66D /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		E48E7BDF253955F60094B66D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		E48E7BE1253956040094B66D /* libglfw3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libglfw3.a; path = platforms/osx/libglfw3.a; sourceTree = "<group>"; };
+		F5C8AA2DB9F44DA98EEF12B0 /* stencil_reflection */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = stencil_reflection; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7FE4FA95EDA4682B9E13BB3 /* sphere.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = sphere.cpp; path = src/sphere.cpp; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E48E7BD7253955CC0094B66D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48E7BE2253956040094B66D /* libglfw3.a in Frameworks */,
+				E48E7BE0253955F60094B66D /* Cocoa.framework in Frameworks */,
+				E48E7BDE253955EE0094B66D /* IOKit.framework in Frameworks */,
+				E48E7BDC253955E50094B66D /* QuartzCore.framework in Frameworks */,
+				E48E7BDA253955D50094B66D /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21DAE562E60C446FADD55750 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		485DD6943A414D2C8C3A97B9 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				21DAE562E60C446FADD55750 /* CMake Rules */,
+				1DF568B32F8D4B2DB89AA792 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		5A83FFBB171842B684FFAA1E = {
+			isa = PBXGroup;
+			children = (
+				E48E7BD5253955C50094B66D /* glew.c */,
+				5D1F440453014124AE3FE468 /* stencil_reflection */,
+				485DD6943A414D2C8C3A97B9 /* ALL_BUILD */,
+				72BDDE01729E41518D4BBD58 /* Products */,
+				E48E7BD8253955D50094B66D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5D1F440453014124AE3FE468 /* stencil_reflection */ = {
+			isa = PBXGroup;
+			children = (
+				B586EA627C5A48788EDD11E6 /* Source Files */,
+				0D279BEB871C4EB893480ED2 /* CMakeLists.txt */,
+			);
+			name = stencil_reflection;
+			sourceTree = "<group>";
+		};
+		72BDDE01729E41518D4BBD58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5C8AA2DB9F44DA98EEF12B0 /* stencil_reflection */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B586EA627C5A48788EDD11E6 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C9BB924B7C84196A5929789 /* example.cpp */,
+				A4BFC58BF0FD43BA84CB4817 /* main.cpp */,
+				50AB4B970E0342DD9CBF976A /* plane.cpp */,
+				F7FE4FA95EDA4682B9E13BB3 /* sphere.cpp */,
+				6A84A0F9E78949CE8ECDE1DF /* targa.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		E48E7BD8253955D50094B66D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E48E7BE1253956040094B66D /* libglfw3.a */,
+				E48E7BDF253955F60094B66D /* Cocoa.framework */,
+				E48E7BDD253955EE0094B66D /* IOKit.framework */,
+				E48E7BDB253955E50094B66D /* QuartzCore.framework */,
+				E48E7BD9253955D50094B66D /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B274EDF1E06B4471A0AFDAFC /* stencil_reflection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88AD5945EC54465980864736 /* Build configuration list for PBXNativeTarget "stencil_reflection" */;
+			buildPhases = (
+				1992AE5553AC4B92A4ABBEA8 /* Sources */,
+				E48E7BD7253955CC0094B66D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4189267E337443D9ADAAF691 /* PBXTargetDependency */,
+			);
+			name = stencil_reflection;
+			productName = stencil_reflection;
+			productReference = F5C8AA2DB9F44DA98EEF12B0 /* stencil_reflection */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5415C9C3F45E4BEEACAC8493 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1000;
+			};
+			buildConfigurationList = 032FF921D2834CCBADF0F9B1 /* Build configuration list for PBXProject "stencil_reflection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5A83FFBB171842B684FFAA1E;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A2B2095795F40C7821ED3B2 /* ALL_BUILD */,
+				F85A8DCA357B4674A4664216 /* ZERO_CHECK */,
+				B274EDF1E06B4471A0AFDAFC /* stencil_reflection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D565C4F6E7542DA9D706875 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_12/stencil_reflection -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_12/stencil_reflection/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+		5D37915B9BB94AABA77DE141 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_12/stencil_reflection -f /Users/joshuadahl/Desktop/Tools/OpenGL\\ Book\\ Examples/chapter_12/stencil_reflection/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION OBJDIR=$(basename \"$OBJECT_FILE_DIR_normal\") all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1992AE5553AC4B92A4ABBEA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48E7BD6253955C50094B66D /* glew.c in Sources */,
+				5667E409D5824B0F823565E9 /* example.cpp in Sources */,
+				28ABE74277744F9FA5CA9F12 /* main.cpp in Sources */,
+				D4E549A4698045A2AC013E49 /* plane.cpp in Sources */,
+				4620D3E23CB947E6802AD9DC /* sphere.cpp in Sources */,
+				C7B4F901663649CF956D94E0 /* targa.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4189267E337443D9ADAAF691 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85A8DCA357B4674A4664216 /* ZERO_CHECK */;
+			targetProxy = E8411D70887C498F95D8C47C /* PBXContainerItemProxy */;
+		};
+		511411509F374CB296A67606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F85A8DCA357B4674A4664216 /* ZERO_CHECK */;
+			targetProxy = C2E760995F9541E3AC674CA7 /* PBXContainerItemProxy */;
+		};
+		5F7F9039D8264391AC82A3C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B274EDF1E06B4471A0AFDAFC /* stencil_reflection */;
+			targetProxy = 2B958C48147347AEB3D6956B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A943229094A4AFFB226D068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		2707E9F9E7A045DBACBD0A50 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stencil_reflection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		3F343C4E37D04B5FAB29156D /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		484D78B537474A6ABB62622D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		61C1BF486DDF44219F80DB85 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		6D2D108E6908456D98465E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		6DAB7A145C0B4883810CFC37 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/build";
+			};
+			name = RelWithDebInfo;
+		};
+		7CA51570353C4BD1A3425866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		91F77A5F9E6748C9800B74CC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+		AAE69837285E4370A6C7CA8E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "    -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stencil_reflection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Release;
+		};
+		B18ABED1078F421EA7E253FA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/build";
+			};
+			name = MinSizeRel;
+		};
+		DF40A727E2484D749BE262DA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = MinSizeRel;
+		};
+		E36AB24A839742328DD5FDB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/build";
+			};
+			name = Release;
+		};
+		EA6484A5B5B24874BDBEC3DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "    ";
+				OTHER_CPLUSPLUSFLAGS = "    ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stencil_reflection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = Debug;
+		};
+		F177E3F7B05448C986181203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Users/joshuadahl/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk;
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/build";
+			};
+			name = Debug;
+		};
+		FE04C669845745208D6815D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = "\"$(PROJECT_DIR)/source/common/\"/**";
+				INSTALL_PATH = "";
+				LD_RUNPATH_SEARCH_PATHS = "\"/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/lib\"";
+				LIBRARY_SEARCH_PATHS = "$(PROJECT_DIR)/platforms/osx";
+				OTHER_CFLAGS = "       -DNDEBUG  ";
+				OTHER_CPLUSPLUSFLAGS = "       -DNDEBUG  ";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = stencil_reflection;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = "$(inherited)";
+			};
+			name = RelWithDebInfo;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032FF921D2834CCBADF0F9B1 /* Build configuration list for PBXProject "stencil_reflection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F177E3F7B05448C986181203 /* Debug */,
+				E36AB24A839742328DD5FDB9 /* Release */,
+				B18ABED1078F421EA7E253FA /* MinSizeRel */,
+				6DAB7A145C0B4883810CFC37 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		12F3E9006D1742EC97655F35 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A943229094A4AFFB226D068 /* Debug */,
+				6D2D108E6908456D98465E60 /* Release */,
+				3F343C4E37D04B5FAB29156D /* MinSizeRel */,
+				91F77A5F9E6748C9800B74CC /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5871522D86F74F499D89BE95 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CA51570353C4BD1A3425866 /* Debug */,
+				484D78B537474A6ABB62622D /* Release */,
+				DF40A727E2484D749BE262DA /* MinSizeRel */,
+				61C1BF486DDF44219F80DB85 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		88AD5945EC54465980864736 /* Build configuration list for PBXNativeTarget "stencil_reflection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA6484A5B5B24874BDBEC3DA /* Debug */,
+				AAE69837285E4370A6C7CA8E /* Release */,
+				2707E9F9E7A045DBACBD0A50 /* MinSizeRel */,
+				FE04C669845745208D6815D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5415C9C3F45E4BEEACAC8493 /* Project object */;
+}

@@ -1,0 +1,3 @@
+/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/CMakeFiles/stencil_reflection.dir
+/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/CMakeFiles/ALL_BUILD.dir
+/Users/joshuadahl/Desktop/Tools/OpenGL Book Examples/chapter_12/stencil_reflection/CMakeFiles/ZERO_CHECK.dir
